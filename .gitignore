@@ -1,0 +1,16 @@
+# Ignore logs and environment files
+*.log
+*.env
+
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if you add any node projects later)
+node_modules/
+
+# Docker-related files (optional if you want to ignore local Docker configs)
+docker-compose.override.yml
+
+# Editor directories and files
+.vscode/
+.idea/
